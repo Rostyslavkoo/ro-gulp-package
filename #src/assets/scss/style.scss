@@ -1,0 +1,22 @@
+@import "_vars";
+@import "vendor/reset";
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: $primary;
+  font-family     : $system_fonts;
+}
+
+footer,
+header {
+  max-width      : 50rem;
+  display        : flex;
+  justify-content: center;
+  margin         : 5rem auto;
+  font-size      : 2rem;
+  font-weight    : bold;
+}
+@import "blocks/main";
